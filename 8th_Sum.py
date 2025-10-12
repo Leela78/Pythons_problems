@@ -1,16 +1,16 @@
 # Program to find the missing number in an array of 0..n
 
 # Example input
-nums = [3, 0, 1]
+nums = [1,0,3]
 
 # Step 1: Sort the array
-nums_sorted = sorted(nums)
+k = sorted(nums)
 
 # Step 2: Check each index
-for i in range(len(nums_sorted)):
-    if i != nums_sorted[i]:
+for i in range(len(nums)):
+    if i != k[i]:
         print("Missing number is:", i)
         break
 else:
     # If all indices match, the missing number is at the end
-    print("Missing number is:", len(nums_sorted))
+    print("Missing number is:", len(nums))
