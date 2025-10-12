@@ -14,7 +14,7 @@ print(nums)  # [1, 3, 12, 0, 0]
 
 # Approach Summary:
 # - Use a pointer to track where the next non-zero should go.
-# - Swap each non-zero with the pointer position.
+# - Swap each non-zero with the pointer position
 # - Zeros move to the end, non-zeros maintain relative order.
 # Time Complexity: O(n)
 # Space Complexity: O(1)
